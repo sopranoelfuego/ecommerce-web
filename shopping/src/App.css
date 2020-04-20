@@ -1,0 +1,38 @@
+:root {
+  --mainDark:#282c34;
+  --mainWhite:#fff;
+  --mainGrey:rgba(109,109,109);
+  --mainLightGrey:rgba(172,172,172);
+  --mainBleu:#007bff;
+  --mainCyan:#44bd32;
+
+}
+body{
+  background-color:rgb(235, 235, 224);
+}
+body h3 {
+  
+  font-family: "oswald",sans-serif !important;
+  
+ 
+}
+
+.text-title{
+  color:#44bd32;
+  font-family: 'oswald'!important;
+  font-size: 50px;
+}
+.text-bright{
+  color: var(--mainLightGrey);
+}
+.text-containerinfo{
+  font-size: 1.9rem;
+  font-family: 'permanent marker'!important;
+}
+.text-infoAside{
+  font-size: 1.4rem;
+  font-family: 'oswald'!important;
+}
+.info_Values {
+  color: cornflowerblue;
+}
