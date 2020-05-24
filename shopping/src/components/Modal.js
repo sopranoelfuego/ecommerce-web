@@ -1,12 +1,12 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
-import {Context_consumer} from '../components/ContextAPI'
+import {Contextconsumer} from '../components/ContextAPI'
 import {Link} from 'react-router-dom'
 
 export class Modal extends Component {
     render() {
         return (
-            <Context_consumer>
+            <Contextconsumer>
                 {
                     (value)=>{
                         const {modalOpen,closeModal}=value
@@ -51,7 +51,7 @@ export class Modal extends Component {
                              )
                     }
                 }
-            </Context_consumer>
+            </Contextconsumer>
         )
     }
 }

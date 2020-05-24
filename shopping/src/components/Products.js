@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 import {Link} from 'react-router-dom'
-import {Context_consumer} from './ContextAPI'
-import PropType from 'prop-types'
+import {Contextconsumer} from './ContextAPI'
 
 class Products extends Component {
     render() {
@@ -11,7 +10,7 @@ class Products extends Component {
             <ProductWrapper className='col-10 col-lg-4 mx-auto mb-5 px-5'>
                  <div className='card'>
                     
-                      <Context_consumer>
+                      <Contextconsumer>
                           {
                             value=>{
                                 return (
@@ -31,7 +30,7 @@ class Products extends Component {
                                 )
                             }
                           }
-                      </Context_consumer>
+                      </Contextconsumer>
 
 
 

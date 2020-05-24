@@ -51,7 +51,7 @@ import styled from 'styled-components'
                         </div>
                         <div className='foote-bottom'>
                              <div className='text xs-center'>
-                                 &copy;{new Date().getFullYear()} my first application all right-reserved
+                                 &copy;{new Date().getFullYear()} all right-reserved
                              </div>
                         </div>
                     </div>

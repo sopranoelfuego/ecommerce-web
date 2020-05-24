@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Products from '../components/Products'
 import DynamikTitle from './DynamikTitle' 
 import {product_inStore,detailProduct} from '../../src/data'
-import {Context_consumer} from './ContextAPI'
+import {Contextconsumer} from './ContextAPI'
 
 
  class ProductList extends Component {
@@ -20,7 +20,7 @@ import {Context_consumer} from './ContextAPI'
            <DynamikTitle name={this.state.name} title={this.state.title}/>
                <div className='row my-3'>
                      
-                  <Context_consumer>
+                  <Contextconsumer>
                      
                      {
                      (value)=>{
@@ -33,7 +33,7 @@ import {Context_consumer} from './ContextAPI'
                   }
                            
                      
-                     </Context_consumer>
+                     </Contextconsumer>
                </div>
 
            </div>

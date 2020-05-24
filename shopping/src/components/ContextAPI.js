@@ -31,7 +31,7 @@ setProducts=()=>{
         ()=>{return {product_inStore:setproducts}}
     )
 }
-//  WE NEED TO EMPROVISING HOW WE CA -N ACCESSING AND EXPLORING DATA WITHOUT CHANGE
+//  WE NEED TO EMPROVise HOW WE CA -N ACCESS AND EXPLORE DATA WITHOUT CHANGE
 // THE ORIGINAL ONES WITH THIS METHODE CYCLE componentDidMount()
 componentDidMount(){
     this.setProducts()
@@ -108,5 +108,5 @@ getSpecifiedItem=id=>this.state.product_inStore.find(item=>item.id===id)
         )
     }
 }
-const Context_consumer=ContextProvider.Consumer
-export {Context_consumer,Infoprovider}
+const Contextconsumer=ContextProvider.Consumer
+export {Contextconsumer,Infoprovider}

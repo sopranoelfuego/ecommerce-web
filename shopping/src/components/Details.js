@@ -1,16 +1,16 @@
 import React, { Component } from 'react'
-import  {Context_consumer} from './ContextAPI'
-import Detail_in_one from './Detail_in_one'
+import  {Contextconsumer} from './ContextAPI'
+import Singledetail from './Singledetail'
 
  class Details extends Component {
     render() {
         
         return (
-            <Context_consumer>
+            <Contextconsumer>
                 {(value)=>{
-                    return <Detail_in_one detail_item={value.detailProduct}/>
+                    return <Singledetail detail_item={value.detailProduct}/>
                 }}
-            </Context_consumer>
+            </Contextconsumer>
         )
     }
 }
